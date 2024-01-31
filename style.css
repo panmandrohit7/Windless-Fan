@@ -3,11 +3,15 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 
 img {
-  border: 20px solid black;
+  border: 18px solid black;
   padding: 50px;
+  height: 450px;
+  width: 450px;
+  margin-bottom: 40px;
   border-radius: 50%;
   animation: fananim linear infinite;
 }
@@ -17,7 +21,7 @@ button {
   height: 100px;
   width: 100px;
   padding: 20px, 30px;
-  margin: 0px, 20px;
+  margin: 10px;
   font-size: 25px;
   font-weight: 550;
   border: none;
